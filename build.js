@@ -4,7 +4,7 @@ const red     = '\u001b[31m';
 const magenta = '\u001b[35m';
 const reset   = '\u001b[0m';
 
-console.log(`\n${magenta}The build has started...${reset}`);
+console.log(`${magenta}The build has started...${reset}`);
 require('esbuild').build({
     entryPoints: ['src/index.ts'],
     bundle: true,

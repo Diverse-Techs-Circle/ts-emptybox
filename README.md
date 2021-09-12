@@ -12,4 +12,3 @@ The following items are available:
 - .gitignore
 - build Scripts
 - ESBuild
-- ESLint
